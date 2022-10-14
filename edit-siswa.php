@@ -37,19 +37,19 @@
                             <div class="form-group">
                                 <label>NISN</label>
                                 <input type="text" name="nisn" value="<?php echo $row['nisn'] ?>"
-                                    placeholder="Masukkan NISN Siswa" class="form-control”>
-                  <input type=" hidden" name="id_siswa" value="<?php echo $row['id_siswa'] ?>">
+                                    placeholder="Masukkan NISN Siswa" class="form-control">
+                  <input type="hidden" name="id_siswa" value="<?php echo $row['id_siswa'] ?>">
                             </div>
 
                             <div class="form-group">
                                 <label>Nama Lengkap</label>
-                                <input type="text" name="nama_lengkap" value="<?php echo $row['nama_lengkap'] ?>"
+                                <input type="text" id="nama_lengkap" name="nama_lengkap" value="<?php echo $row['nama_lengkap'] ?>"
                                     placeholder="Masukkan Nama Siswa" class="form-control">
                             </div>
 
                             <div class="form-group">
                                 <label>Alamat</label>
-                                <textarea class="form-control" name="alamat" placeholder="Masukkan Alamat Siswa"
+                                <textarea class="form-control" id="alamat" name="alamat" placeholder="Masukkan Alamat Siswa"
                                     rows="4"><?php echo $row['alamat'] ?></textarea>
                             </div>
 
